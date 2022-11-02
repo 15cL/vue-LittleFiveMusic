@@ -1,17 +1,15 @@
 <template>
-  <div id="app" style="height: 100%">
-    <!--路由占位符-->
-    <router-view ref="main"></router-view>
+  <div id="app">
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-
 export default {
-  name: 'app'
-}
+  name: "App",
+  components: {},
+};
 </script>
 
 <style>
-
 </style>
